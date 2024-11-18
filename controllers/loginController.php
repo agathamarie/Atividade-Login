@@ -1,6 +1,6 @@
 <?php
 
-require "../../config/bd.php";
+require_once('../../config/bd.php');
 
 class LoginController {
     private $conexao;

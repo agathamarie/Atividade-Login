@@ -1,18 +1,18 @@
-<form method="post" action="../src/pagCadastro.php?acao=cadastrar">
-    <label for="nome">Nome: </label>
-    <input type="text" name="nome" id="nome"/>
+<link rel="stylesheet" type="text/css" href="../css/pagCadastro.css">
+<form method="post" action="../src/pagCadastro.php?acao=cadastrar" id="formcadastro">
+    <input type="text" name="nome" id="nome" placeholder="Nome: "/>
 
-    <label for="data_nasc">Data de nacimento: </label>
-    <input type="date" name="data_nasc" id="data_nasc"/>
+    <input type="date" name="data_nasc" id="data_nasc" placeholder="Data de Nascimento: "/>
 
-    <label for="email">Email: </label>
-    <input type="email" name="email" id="email"/>
+    <input type="email" name="email" id="email" placeholder="Email: "/>
 
-    <label for="endereco">Endereço: </label>
-    <input type="text" name="endereco" id="endereco"/>
+    <input type="text" name="endereco" id="endereco" placeholder="Endereço: "/>
 
-    <label for="senha">Senha: </label>
-    <input type="text" name="senha" id="senha"/>
+    <input type="text" name="senha" id="senha" placeholder="Senha: "/>
 
-    <input type="submit" name="acao" value="Enviar">
+    <input type="submit" name="acao" id="submit" value="Enviar">
 </form>
+
+<p>Já tem Cadastro?
+    <a href="../src/pagLogin.php">Faça Login!</a>
+</p>
